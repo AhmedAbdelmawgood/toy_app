@@ -14,7 +14,6 @@ class MicropostsController < ApplicationController
 
   # GET /microposts/new
   def new
-    fail
     @micropost = Micropost.new
   end
 
